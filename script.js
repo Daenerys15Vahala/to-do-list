@@ -2,7 +2,7 @@ const addBtn = document.getElementById("addBtn");
 const taskInput = document.getElementById("taskInput");
 const taskList = document.getElementById("taskList");
 
-loadTasks();
+document.body.style.backgroundColor = "#e6ccff";
 
 addBtn.addEventListener("click", addTask);
 
